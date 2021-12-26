@@ -8,3 +8,7 @@
 [26/12/2021 16:06:26] Client is connected on ('127.0.0.1', 56496)
 [26/12/2021 16:06:30] ('127.0.0.1', 56494) has disconnected from the server
 [26/12/2021 16:06:33] ('127.0.0.1', 56496) has disconnected from the server
+[26/12/2021 20:00:20] Server is listening on 127.0.0.1, 1234
+[26/12/2021 20:00:35] Client is connected on ('127.0.0.1', 42470)
+[26/12/2021 20:03:56] Client is connected on ('127.0.0.1', 42472)
+[26/12/2021 20:04:05] ('127.0.0.1', 42472) has disconnected from the server

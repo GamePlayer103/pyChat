@@ -24,6 +24,31 @@ print('Connected to the server!\n')
 client.settimeout(0)
 client.setblocking(1)
 
-while True:
-    message = client.recv(1024).decode()
-    print(message)
+def receive_messages():
+    """
+    Receives messages from the server
+    """
+    
+    while True:
+        try:
+            message = client.recv(1024).decode('ascii')
+            print(message)
+        except:
+            print('An error occured!')
+            client.close()
+            break
+
+def write_messages():
+    """
+    Sends messages to the server
+    """
+
+    while True:
+        message = input()
+        client.send(message.encode('ascii'))
+
+receive_thread = threading.Thread(target=receive_messages)
+receive_thread.start()
+
+write_thread = threading.Thread(target=write_messages)
+write_thread.start()
