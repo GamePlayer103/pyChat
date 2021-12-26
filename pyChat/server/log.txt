@@ -1,0 +1,10 @@
+[26/12/2021 15:57:15] Server is listening on 127.0.0.1, 1234
+[26/12/2021 15:57:19] Server is listening on 127.0.0.1, 1234
+[26/12/2021 15:57:20] Server is listening on 127.0.0.1, 1234
+[26/12/2021 16:05:37] Server is listening on 127.0.0.1, 1234
+[26/12/2021 16:05:57] Client is connected on ('127.0.0.1', 56492)
+[26/12/2021 16:06:10] ('127.0.0.1', 56492) has disconnected from the server
+[26/12/2021 16:06:21] Client is connected on ('127.0.0.1', 56494)
+[26/12/2021 16:06:26] Client is connected on ('127.0.0.1', 56496)
+[26/12/2021 16:06:30] ('127.0.0.1', 56494) has disconnected from the server
+[26/12/2021 16:06:33] ('127.0.0.1', 56496) has disconnected from the server
